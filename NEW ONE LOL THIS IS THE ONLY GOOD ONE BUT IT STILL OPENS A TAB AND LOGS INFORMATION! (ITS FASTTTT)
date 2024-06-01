@@ -1,0 +1,28 @@
+// ==UserScript==
+// @name         Mini Browser
+// @namespace    
+// @version      0.1
+// @description  Opens a mini browser window
+// @author       H4CKE3R
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Create a function to open a new window
+    function openMiniBrowser(url) {
+        const width = 400;
+        const height = 300;
+        const left = (screen.width - width) / 2;
+        const top = (screen.height - height) / 2;
+        const features = `width=${width},height=${height},left=${left},top=${top}`;
+        const newWindow = window.open(url, '_blank', features);
+        if (!newWindow) {
+            alert("Popup blocked! Please allow popups for this site.");
+        }
+    }
+
+    // Call the function with a specific URL
+    openMiniBrowser('https://www.google.com');
+})();
