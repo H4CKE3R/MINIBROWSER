@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  MADE SPECIFICALLY FOR EDGENUITY (CODE NOT SPECIFICALLY FITTED FOR IT HOWEVER IT IS MY INTENTION TO MAKE IT SPECIFICALLy FOR EDGENUITY) ONLINE SCHOOL
 // @author       H4CKE3R
-// @match        https://r17.core.learn.edgenuity.com/player/, www.google.com, ONLINE SCHOOLS!
+// @match        https://r17.core.learn.edgenuity.com/player/ (WORKS PERFECTLy KINDA!!!!!!), www.google.com (WORKS BUT DOESNT!), ONLINE SCHOOLS!
 // @grant        none
 // ==/UserScript==
 
