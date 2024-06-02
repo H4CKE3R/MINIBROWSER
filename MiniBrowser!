@@ -1,0 +1,22 @@
+// ==UserScript==
+// @name         MiniBrowser!
+// @version      1.0
+// @description  LITTERALLY SO GOOD
+// @author       H4CKE3R
+// @match        https://r17.core.learn.edgenuity.com/player/
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Create the iframe element
+    const iframe = document.createElement('iframe');
+    iframe.setAttribute('id', 'msBingFrame');
+    iframe.setAttribute('width', '100%');
+    iframe.setAttribute('height', '100%');
+    iframe.setAttribute('src', 'https://www.bing.com/search?q=Hello, and welcome to the newest edgenuity tweak/hack/exploit!');
+
+    // Append the iframe to the document body
+    document.body.appendChild(iframe);
+})();
